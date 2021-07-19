@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D5C4677426A5DCCF00D318F9 /* CircleMotionPathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C4677326A5DCCF00D318F9 /* CircleMotionPathView.swift */; };
 		E52EABB326A1EE2200AFF624 /* SwiftUIAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52EABB226A1EE2200AFF624 /* SwiftUIAnimationApp.swift */; };
 		E52EABB526A1EE2200AFF624 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52EABB426A1EE2200AFF624 /* ContentView.swift */; };
 		E52EABB726A1EE2300AFF624 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E52EABB626A1EE2300AFF624 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D5C4677326A5DCCF00D318F9 /* CircleMotionPathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleMotionPathView.swift; sourceTree = "<group>"; };
 		E52EABAF26A1EE2200AFF624 /* SwiftUIAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E52EABB226A1EE2200AFF624 /* SwiftUIAnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAnimationApp.swift; sourceTree = "<group>"; };
 		E52EABB426A1EE2200AFF624 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 				E52EABCA26A1FC5A00AFF624 /* SimpleLoadingSpinner.swift */,
 				E52EABCC26A205A200AFF624 /* CircleProgressView.swift */,
 				E5D7C5CC26A5CA940012468A /* AnchorPointView.swift */,
+				D5C4677326A5DCCF00D318F9 /* CircleMotionPathView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 				E5D7C5CD26A5CA940012468A /* AnchorPointView.swift in Sources */,
 				E52EABC426A1EF9F00AFF624 /* SimpleSpringView.swift in Sources */,
 				E52EABB326A1EE2200AFF624 /* SwiftUIAnimationApp.swift in Sources */,
+				D5C4677426A5DCCF00D318F9 /* CircleMotionPathView.swift in Sources */,
 				E52EABC726A1F34800AFF624 /* ShapeMorphingView.swift in Sources */,
 				E52EABCD26A205A200AFF624 /* CircleProgressView.swift in Sources */,
 				E52EABCB26A1FC5A00AFF624 /* SimpleLoadingSpinner.swift in Sources */,
