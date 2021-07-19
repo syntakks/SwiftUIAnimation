@@ -12,6 +12,7 @@ struct SwiftUIAnimationApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+              .environmentObject(ViewModel())
         }
     }
 }

@@ -8,14 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
+  @EnvironmentObject var viewModel: ViewModel
+  
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+      NavigationView {
+        List(AnimationPage.allCases) { page in
+          NavigationLink(destination: page.page()) {
+            Text(page.rawValue)
+          }
+        }
+        .navigationTitle("SwiftUI Animations")
+      }
+      
     }
+  
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+          .environmentObject(ViewModel())
     }
 }

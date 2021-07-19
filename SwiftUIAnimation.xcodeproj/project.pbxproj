@@ -11,6 +11,13 @@
 		E52EABB526A1EE2200AFF624 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52EABB426A1EE2200AFF624 /* ContentView.swift */; };
 		E52EABB726A1EE2300AFF624 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E52EABB626A1EE2300AFF624 /* Assets.xcassets */; };
 		E52EABBA26A1EE2300AFF624 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E52EABB926A1EE2300AFF624 /* Preview Assets.xcassets */; };
+		E52EABC226A1EE8800AFF624 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52EABC126A1EE8800AFF624 /* ViewModel.swift */; };
+		E52EABC426A1EF9F00AFF624 /* SimpleSpringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52EABC326A1EF9F00AFF624 /* SimpleSpringView.swift */; };
+		E52EABC726A1F34800AFF624 /* ShapeMorphingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52EABC626A1F34800AFF624 /* ShapeMorphingView.swift */; };
+		E52EABC926A1FA4800AFF624 /* ColorShiftView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52EABC826A1FA4800AFF624 /* ColorShiftView.swift */; };
+		E52EABCB26A1FC5A00AFF624 /* SimpleLoadingSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52EABCA26A1FC5A00AFF624 /* SimpleLoadingSpinner.swift */; };
+		E52EABCD26A205A200AFF624 /* CircleProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52EABCC26A205A200AFF624 /* CircleProgressView.swift */; };
+		E5D7C5CD26A5CA940012468A /* AnchorPointView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D7C5CC26A5CA940012468A /* AnchorPointView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +27,13 @@
 		E52EABB626A1EE2300AFF624 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E52EABB926A1EE2300AFF624 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E52EABBB26A1EE2300AFF624 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E52EABC126A1EE8800AFF624 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		E52EABC326A1EF9F00AFF624 /* SimpleSpringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleSpringView.swift; sourceTree = "<group>"; };
+		E52EABC626A1F34800AFF624 /* ShapeMorphingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeMorphingView.swift; sourceTree = "<group>"; };
+		E52EABC826A1FA4800AFF624 /* ColorShiftView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorShiftView.swift; sourceTree = "<group>"; };
+		E52EABCA26A1FC5A00AFF624 /* SimpleLoadingSpinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleLoadingSpinner.swift; sourceTree = "<group>"; };
+		E52EABCC26A205A200AFF624 /* CircleProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleProgressView.swift; sourceTree = "<group>"; };
+		E5D7C5CC26A5CA940012468A /* AnchorPointView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnchorPointView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,8 @@
 			children = (
 				E52EABB226A1EE2200AFF624 /* SwiftUIAnimationApp.swift */,
 				E52EABB426A1EE2200AFF624 /* ContentView.swift */,
+				E52EABC126A1EE8800AFF624 /* ViewModel.swift */,
+				E52EABC526A1F05800AFF624 /* Views */,
 				E52EABB626A1EE2300AFF624 /* Assets.xcassets */,
 				E52EABBB26A1EE2300AFF624 /* Info.plist */,
 				E52EABB826A1EE2300AFF624 /* Preview Content */,
@@ -67,6 +83,19 @@
 				E52EABB926A1EE2300AFF624 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E52EABC526A1F05800AFF624 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E52EABC326A1EF9F00AFF624 /* SimpleSpringView.swift */,
+				E52EABC626A1F34800AFF624 /* ShapeMorphingView.swift */,
+				E52EABC826A1FA4800AFF624 /* ColorShiftView.swift */,
+				E52EABCA26A1FC5A00AFF624 /* SimpleLoadingSpinner.swift */,
+				E52EABCC26A205A200AFF624 /* CircleProgressView.swift */,
+				E5D7C5CC26A5CA940012468A /* AnchorPointView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +168,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				E52EABB526A1EE2200AFF624 /* ContentView.swift in Sources */,
+				E52EABC226A1EE8800AFF624 /* ViewModel.swift in Sources */,
+				E5D7C5CD26A5CA940012468A /* AnchorPointView.swift in Sources */,
+				E52EABC426A1EF9F00AFF624 /* SimpleSpringView.swift in Sources */,
 				E52EABB326A1EE2200AFF624 /* SwiftUIAnimationApp.swift in Sources */,
+				E52EABC726A1F34800AFF624 /* ShapeMorphingView.swift in Sources */,
+				E52EABCD26A205A200AFF624 /* CircleProgressView.swift in Sources */,
+				E52EABCB26A1FC5A00AFF624 /* SimpleLoadingSpinner.swift in Sources */,
+				E52EABC926A1FA4800AFF624 /* ColorShiftView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
