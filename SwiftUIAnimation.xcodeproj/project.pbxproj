@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D5B74C9C26A625DC00D6E800 /* CheckmarkCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B74C9B26A625DC00D6E800 /* CheckmarkCircleView.swift */; };
 		D5C4677426A5DCCF00D318F9 /* CircleMotionPathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C4677326A5DCCF00D318F9 /* CircleMotionPathView.swift */; };
+		D5C4677626A6138700D318F9 /* RotateInfinityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C4677526A6138700D318F9 /* RotateInfinityView.swift */; };
 		E52EABB326A1EE2200AFF624 /* SwiftUIAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52EABB226A1EE2200AFF624 /* SwiftUIAnimationApp.swift */; };
 		E52EABB526A1EE2200AFF624 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52EABB426A1EE2200AFF624 /* ContentView.swift */; };
 		E52EABB726A1EE2300AFF624 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E52EABB626A1EE2300AFF624 /* Assets.xcassets */; };
@@ -22,7 +24,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D5B74C9B26A625DC00D6E800 /* CheckmarkCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckmarkCircleView.swift; sourceTree = "<group>"; };
 		D5C4677326A5DCCF00D318F9 /* CircleMotionPathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleMotionPathView.swift; sourceTree = "<group>"; };
+		D5C4677526A6138700D318F9 /* RotateInfinityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateInfinityView.swift; sourceTree = "<group>"; };
 		E52EABAF26A1EE2200AFF624 /* SwiftUIAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E52EABB226A1EE2200AFF624 /* SwiftUIAnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAnimationApp.swift; sourceTree = "<group>"; };
 		E52EABB426A1EE2200AFF624 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +101,8 @@
 				E52EABCC26A205A200AFF624 /* CircleProgressView.swift */,
 				E5D7C5CC26A5CA940012468A /* AnchorPointView.swift */,
 				D5C4677326A5DCCF00D318F9 /* CircleMotionPathView.swift */,
+				D5C4677526A6138700D318F9 /* RotateInfinityView.swift */,
+				D5B74C9B26A625DC00D6E800 /* CheckmarkCircleView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -170,7 +176,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5C4677626A6138700D318F9 /* RotateInfinityView.swift in Sources */,
 				E52EABB526A1EE2200AFF624 /* ContentView.swift in Sources */,
+				D5B74C9C26A625DC00D6E800 /* CheckmarkCircleView.swift in Sources */,
 				E52EABC226A1EE8800AFF624 /* ViewModel.swift in Sources */,
 				E5D7C5CD26A5CA940012468A /* AnchorPointView.swift in Sources */,
 				E52EABC426A1EF9F00AFF624 /* SimpleSpringView.swift in Sources */,
