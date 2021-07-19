@@ -7,6 +7,7 @@
 
 import SwiftUI
 enum AnchorPoint: String, CaseIterable {
+  case center
   case top
   case trailing
   case bottom
@@ -14,6 +15,7 @@ enum AnchorPoint: String, CaseIterable {
   
   func anchor() -> UnitPoint {
     switch self {
+    case .center: return .center
     case .top: return .top
     case .trailing: return .trailing
     case .bottom: return .bottom
@@ -23,6 +25,7 @@ enum AnchorPoint: String, CaseIterable {
   
   func offest() -> CGFloat {
     switch self {
+    case .center: return 0.0
     case .top: return -25.0
     case .trailing: return 25.0
     case .bottom: return 25.0
@@ -33,7 +36,7 @@ enum AnchorPoint: String, CaseIterable {
 
 struct AnchorPointView: View {
   @State var rotate = false
-  @State var anchorPoint: AnchorPoint = .top
+  @State var anchorPoint: AnchorPoint = .center
   let animation: Animation = .spring().repeatForever(autoreverses: true)
   
   var body: some View {
