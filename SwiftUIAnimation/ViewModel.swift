@@ -14,6 +14,7 @@ enum AnimationPage: String, CaseIterable {
   case colorShift = "Color Shift Wallpaper"
   case simpleLoadingSpinner = "Simple Loading Spinner"
   case circleProgress = "Circle Progress Spinner"
+  case anchorPointPosition = "Anchor Point Positioning"
 }
 extension AnimationPage: Identifiable {
   var id: Self { self }
@@ -31,6 +32,8 @@ extension AnimationPage: Identifiable {
       SimpleLoadingSpinner()
     case .circleProgress:
       CircleProgressView()
+    case .anchorPointPosition:
+      AnchorPointView()
     }
   }
   
