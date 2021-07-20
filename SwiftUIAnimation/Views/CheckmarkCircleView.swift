@@ -28,7 +28,6 @@ struct CheckmarkCircleView: View {
         .onAppear {
           rotateBlueCircle.toggle()
         }
-      
       // Green Circle
       Circle()
         .frame(width: 128, height: 128)
@@ -38,7 +37,6 @@ struct CheckmarkCircleView: View {
         .onAppear {
           scaleUpGreenCircle.toggle()
         }
-      
       // Checkmark
       Checkmark()
         .trim(from: 0, to: drawCheckMark ? 1 : 0)
@@ -49,7 +47,6 @@ struct CheckmarkCircleView: View {
           drawCheckMark.toggle()
         }
     }
-    
   }
   
 }
@@ -62,9 +59,9 @@ struct Checkmark: Shape {
     let vertex = CGPoint(x: rect.maxX * 1/3, y: rect.maxY)
     let end = CGPoint(x: rect.maxX, y: rect.minY)
     var path = Path()
-    path.move(to: start)
-    path.addLine(to: vertex)
-    path.addLine(to: end)
+    path.move(to: start) // x:0, y:1
+    path.addLine(to: vertex) // x:1, y:2
+    path.addLine(to: end) // x:3, y:0
     return path
   }
 }
